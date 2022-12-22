@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="relatorio.css">
+    <title>Relatório</title>
+</head>
+
+<body>
+    <h1>Relatório</h1>
+    <div class="flex-container">
+        <div class="implementadas">
+            <h2>Funcionalidades Implementadas:</h2>
+            <ul>
+                <li><a href="#1">Sistema de Login</a></li>
+                <li><a href="#2">Sistema de Logout</a></li>
+                <li><a href="#3">Listagens globais </a></li>
+                <li><a href="#4">Listagens específicas</a></li>
+                <li><a href="#5">Inserir dados </a> </li>
+                <li><a href="#6">Editar dados</a></li>
+            </ul>
+        </div>
+        <div class="implementadas">
+            <h2>Funcionalidades Extras:</h2>
+            <ul>
+                <li><a href="#7">Editar dados de todas as tabelas</a></li>
+            </ul>
+            <br>
+        </div>
+    </div>
+
+    <div class="topico">
+        <h3><a name="1">Sistema de Login</a></h3>
+        <p>Nós utilizamos o modal do bootstrap para criarmos o login do nosso utilizador, para acedermos ao nosso
+            utilizador e a sua respetiva palavra passe utilizamos o mysql.O utilizador só consegue aceder ao resto do
+            nosso site caso esteja com o login
+            efetuado, caso o utilizador tente aceder ao nosso site e não esteja logado, aparece uma mensagem no url a
+            dizer que não tem permissão para aceder o site.</p>
+    </div>
+    <div class="topico">
+        <h3><a name="2">Sistema de Logout</a></h3>
+        <p>No nosso trabalho é possivel dar logout de duas formas.Uma das formas é com a utilização de cookies, assim
+            após um tempo definido por nós, o utilizador é expulso do site.</p>
+        <p>A outra forma é terminarmos sessão manualmente, no nosso header(após sessão iniciada) temos a opção Log out,
+            quando primida, o utilizador recebe um pedido de confirmação para sair(modal) e caso confirme,é deslogaddo
+            com sucesso. </p>
+    </div>
+    <div class="topico">
+        <h3><a name="3">Listagens Globais</a></h3>
+        <p>O nosso header contém a opção table, quando selecionada, aparece uma tabela que contém as cinco opções
+            necessárias(course, faculty, product, student e tent).</p>
+        <p>Selecionando uma das opções, estabelecemos uma ligação à base de dados de acordo com a opção selecionada,
+            mostrado ao utilizador os respetivos dados da tabela. </p>
+    </div>
+    <div class="topico">
+        <h3><a name="4">Listagens Específicas</a></h3>
+        <p>No nosso header, quando acedemos à opção table, é possível organizar as tabelas de cada opção por ordem
+            alfabética(nomes) e numérica(preços), também quando selecionamos a opção insert é possível ordenar as
+            tabelas.</p>
+    </div>
+    <div class="topico">
+        <h3><a name="5">Inserir Dados</a></h3>
+        <p>O nosso header contém a opção insert, quando selecionada, podemos escolher 6 opções de inserção(faculdade,
+            cursos, barracas, alunos, stock e produtos). </p>
+        <p>Na inserção de produtos e faculdades apenas necessitamos de submeter a informação dos produtos(nome e preço)
+            e da faculdade(nome) respetivamente.Na inserção das restantes opções além da informação acerca da opção é
+            necessário selecionar as opções
+            das drop-down menu,por exemplo,na inserção de um aluno é necessário adicionar o nome e número do aluno,bem
+            como, a faculdade, o curso e a barraca através de 3 drop-down menus.</p>
+    </div>
+    <div class="topico">
+        <h3><a name="6">Editar Dados</a></h3>
+        <p>Para editarmos os dados da nossa base de dados necessitamos de selecionar a opção insert no nosso header,
+            quando selecionada, podemos escolher uma das 6 opções de inserção, após a escolha basta selecionarmos a
+            opção alterar. </p>
+        <p>No caso do stock, após submetermos a alteração, aparecerá uma caixa(modal) a questionar se queremos mesmo
+            efetuar esta alteração.</p>
+    </div>
+    <div class="topico">
+        <h3><a name="7">Editar Dados de todas as tabelas</a></h3>
+        <p>Como implementação extra nós decidimos permitir a edição da faculdade, cursos, barracas, alunos e produtos.
+        </p>
+        <p>A forma de editar estas opções é igual à forma de editar o stock porém, após a submição não existe uma
+            caixa(modal) a questionar a nossa submissão.</p>
+    </div>
+
+</body>
+
+</html>

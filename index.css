@@ -1,0 +1,81 @@
+#navBarColor a {
+    color: rgb(245, 107, 9);
+    font-weight: bold;
+}
+
+#navBarColor a:hover {
+    color: rgba(245, 107, 9, 0.345);
+}
+
+.modal-backdrop {
+    display: none;
+    z-index: 1040 !important;
+}
+
+.modal-content {
+    margin: 2px auto;
+    z-index: 1100 !important;
+}
+
+#informationQueima {
+    background-image: url(goodBG.jpg);
+    background-size: cover;
+}
+
+#infoContact {
+    color: aliceblue;
+}
+
+#input {
+    background-color: rgba(0, 0, 0, 0);
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid wheat;
+    width: 170px;
+}
+
+#buttonSubmit {
+    border-radius: 25%;
+    font-size: 15px;
+    background-color: darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#ulItems li {
+    display: inline;
+}
+
+#Footer {
+    border-top: 4px solid #757371;
+    background: #292726;
+}
+
+#tabelaShowOf {
+    margin-right: auto;
+    padding: 5px;
+    width: 200px !important;
+}
+
+#secondaryTable {
+    margin-left: auto;
+    margin-right: 60%;
+    padding: 5px;
+    width: 300px!important;
+}
+
+table.tablesorter tbody tr.normal-row td {
+    background: #888;
+    color: #fff;
+}
+
+table.tablesorter tbody tr.alt-row td {
+    background: #555;
+    color: #fff;
+}
+
+#cover {
+    background-image: url(./img/cover1.jpg);
+    background-size: cover;
+}

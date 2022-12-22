@@ -1,0 +1,38 @@
+body {
+    background: url("./background.jpg");
+    background-size: cover;
+    color: rgb(13, 13, 86);
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.topico {
+    padding: 40px;
+    margin-right: 60%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.implementadas {
+    margin: 0 10%;
+}
